@@ -14,3 +14,20 @@ This project applies data science and machine learning techniques to predict whe
 - Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
 - Imbalanced-learn
 - Jupyter/Colab (originally written in notebook format)
+
+## Results Summary
+- Accuracy: 0.7983
+- Precision: 0.5543
+- Recall: 0.4006
+- F1 Score: 0.8108
+
+## Future Improvements
+- **Recall Boosting:** Improve the model’s ability to identify more true defaulters, possibly by:
+  - Tuning the classification threshold using ROC/PR curves
+  - Using recall-oriented scoring during model training
+- **Oversampling (SMOTE):** Implement synthetic minority oversampling instead of undersampling to retain all majority-class samples while addressing imbalance.
+- **Model Comparison:** Test additional models like XGBoost, Logistic Regression, and SVMs to balance precision-recall tradeoffs.
+- **Cross-Validation:** Incorporate stratified k-fold cross-validation for more stable metric reporting.
+- **Feature Engineering:** Derive behavioral features from bill/payment history, such as trends or ratios, to capture latent patterns.
+- **Explainability:** Apply SHAP or LIME to make predictions interpretable and actionable for stakeholders.
+- **Deployment Potential:** Wrap the model into a Streamlit or Flask web app for real-time risk scoring.
