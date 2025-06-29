@@ -1,5 +1,8 @@
 # Credit Card Default Prediction
 
+## Business Understanding
+Credit card issuers face significant financial risk from customer payment defaults. Predicting which customers are likely to default enables better risk management, targeted interventions, and reduced losses. This project leverages machine learning to analyze customer demographics and payment history, aiming to improve default prediction and support data-driven credit decisions.
+
 This project applies data science and machine learning techniques to predict whether a customer will default on their credit card payment next month. The dataset is sourced from a real-world credit dataset and includes demographic, billing, and payment information.
 
 ## Features
